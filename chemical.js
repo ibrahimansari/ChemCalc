@@ -109,7 +109,7 @@ function mass() {
 	var x = prompt("Please enter chemical symbol", "Type symbol here");
 	var b = prompt("Please enter number of atoms","Type number here");
 
-	alert("The atomic mass is = " + map[x] * b);
+	alert("The molar mass is = " + map[x] * b);
 }
 
 function massatom() {
